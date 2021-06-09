@@ -1,0 +1,34 @@
+{
+  "name": "sass-template",
+  "version": "1.0.0",
+  "description": "A template for Sass",
+  "main": "./src/",
+  "scripts": {
+    "css-compile": "sass --watch  --source-map --embed-sources --no-error-css src/scss/:dist/css/",
+    "css-minify": "sass --style=compressed --source-map --embed-sources --no-error-css src/scss/style.scss dist/css/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonyssantos/sass-template.git"
+  },
+  "keywords": [
+    "sass",
+    "template",
+    "stylesheets",
+    "scss",
+    "starter-template",
+    "css-compiler",
+    "css-minify",
+    "palm-tree",
+    "palm-tree-css"
+  ],
+  "author": "Adonys Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adonyssantos/sass-template/issues"
+  },
+  "homepage": "https://github.com/adonyssantos/sass-template#readme",
+  "dependencies": {
+    "sass": "^1.34.1"
+  }
+}
